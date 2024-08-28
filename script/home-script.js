@@ -1,11 +1,9 @@
-// Sample data (replace with your own data)
 let items = [
     { name: "Product A", price: 10, stock: 5 },
     { name: "Product B", price: 20, stock: 3 },
-    // ... more items
+    // lagi
   ];
   
-  // Functions to update the UI
   function updateTotalItems() {
     document.getElementById("totalItems").textContent = items.length;
   }
